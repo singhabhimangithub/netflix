@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: black;
+}
+
+
+.main {
+    background-image: url(assets/images/IN-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 80vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+
+main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: (0.44);
+    background-color: rgb(15, 14, 14);
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    max-width: 70vh;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+nav .img {
+    position: relative;
+    color: red;
+    width: 144px;
+    z-index: 10px;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    /* font-weight: 600;
+        font-style: normal; */
+
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    align-items: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400px;
+    font-size: 24px;
+    align-items: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400px;
+    font-size: 20px;
+    align-items: center;
+}
+
+div .button {
+    color: red;
+}
+
+.separation{
+    height: 11px;
+    
+}
